@@ -26,5 +26,3 @@ stages:
         repository: 'kevingineering/terraform'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
-        tags: 
-          ${tag}
